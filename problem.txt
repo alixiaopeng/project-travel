@@ -1,0 +1,14 @@
+1、VUE启动问题（You may use special comments to disable some warnings）
+出现问题的原因：Eslint的检测机制。
+解决办法：①：在build/webpack.base.conf.js文件中注释掉第44行代码
+	②：在config/index.js文件中第26行中的useEslint的值改为false
+
+2、本地ip地址无法打开
+出现问题的原因：发现该版本的vue-cli将host主机名定义为localhost, 从而导致了本地IP不能访问服务。
+解决办法：①找到使用vue脚手架建立项目config文件中的index.js文件
+	②修改dev里面的host属性值：改成 host: ‘0.0.0.0’
+	③重启项目
+
+3、在detail组件的子组件header中，activated、deactivated事件没有触发
+出现问题的原因：activated,deactivated这两个生命周期函数一定是要在使用了keep-alive组件后才会有的，否则则不存在
+解决办法：在路由出口外套上<keep-alive></keep-alive>

@@ -1,21 +1,9 @@
-# travel
+# 项目简介
 
-> A Vue.js project
+> 仿写去哪儿网App，简单的实现了城市选择、城市切换、景点切换、景点详情、首页轮播图、数据动态渲染等功能。
+# 项目技术
+> 使用vue框架，vue-router搭建项目路由，vuex来实现单文件组件和数据的抽离
+> 使用vue-cli脚手架，基于webpack来搭建项目工程，配置第三方插件
+> 运用vue.js中的axios与后台接口对接，进行数据交互，进行页面渲染，实现功能模块的判断
+> 使用Swiper实现首页banner的轮播切换，better-scroll插件结合ajax实现上拉加载，下拉刷新
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

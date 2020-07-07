@@ -7,12 +7,19 @@
 - 使用Swiper实现首页banner的轮播切换，better-scroll插件结合ajax实现上拉加载，下拉刷新
 # 项目展示
 - 主页
+
 ![image](https://github.com/alixiaopeng/project-travel/blob/master/preview/home.jpg)
 ![image](https://github.com/alixiaopeng/project-travel/blob/master/preview/homes.jpg)
+
 - 城市选择页面
+
 ![image](https://github.com/alixiaopeng/project-travel/blob/master/preview/change-city.jpg)
+
 - 详情页
+
 ![image](https://github.com/alixiaopeng/project-travel/blob/master/preview/detail.jpg)
+
 - 详情页背景图
+
 ![image](https://github.com/alixiaopeng/project-travel/blob/master/preview/detail-pic.jpg)
 
